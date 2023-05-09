@@ -1,0 +1,1 @@
+export const IP_API_URL = "https://api.ipify.org/";

@@ -1,0 +1,31 @@
+{
+  "name": "tor-ipfs-gateway",
+  "version": "0.0.1",
+  "description": "access IPFS gateways through Tor.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Xuanyi Fu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/bytes": "^3.1.1",
+    "@types/commander": "^2.12.2",
+    "@types/progress": "^2.0.5",
+    "axios": "^1.4.0",
+    "bytes": "^3.1.2",
+    "commander": "^10.0.1",
+    "pretty-bytes": "^6.1.0",
+    "progress": "^2.0.3",
+    "socks": "^2.7.1",
+    "socks-proxy-agent": "^8.0.1",
+    "ts-node": "^10.9.1"
+  }
+}
